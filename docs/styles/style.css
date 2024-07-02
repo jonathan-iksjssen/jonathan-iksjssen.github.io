@@ -2,19 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family: "Iosevka SS14 Web", monospace !important;
-}
-
 html {
     background: url(../assets/bg/walltest-1.png), #11111b;
     background-size: 75%;
     background-repeat: repeat;
     background-attachment: fixed;
+    font-family: "Iosevka SS14 Web", monospace !important;
 }
 
 a.navlink {
     @apply hover:text-brand-300 transition-colors
+}
+
+#bodycont {
+    height: 150vh !important;
 }
 
 span.hli {
@@ -24,10 +25,31 @@ a.navlink:hover span.hli {
     @apply text-brand-400 transition-colors
 }
 
+
 span.sep {
     @apply text-indigrey-500;
 }
 
 #name:hover {
     cursor: grabbing;
+}
+
+img {
+    @apply border-double border-indigrey-50 border-4
+}
+
+h1 {
+    @apply font-bold text-3xl font-serif my-4 pb-4 text-center
+}
+
+h2 {
+    @apply font-serif text-center sm:text-left text-xl font-bold mb-4
+}
+
+body {
+    @apply container mx-auto flex flex-col items-center h-screen text-indigrey-50 text-base
+}
+
+#bodycont {
+    @apply bg-indigrey-1100 bg-opacity-80 h-screen container w-11/12 md:w-3/4 lg:w-2/3 px-8
 }

@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'serif': ['Libertinus Serif', 'ui-serif', 'serif'],
+      'serif': ["Playwrite Norge", 'ui-serif', 'serif'],
     },
     extend: {
       

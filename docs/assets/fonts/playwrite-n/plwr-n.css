@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Playwrite Norge';
+    font-display: swap;
+    src: url(./TTF/PlaywriteNO-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Playwrite Norge';
+    font-display: swap;
+    font-weight: 100;
+    src: url(./TTF/PlaywriteNO-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Playwrite Norge';
+    font-display: swap;
+    font-weight: 200;
+    src: url(./TTF/PlaywriteNO-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Playwrite Norge';
+    font-display: swap;
+    font-weight: 300;
+    src: url(./TTF/PlaywriteNO-Light.ttf);
+}
+
