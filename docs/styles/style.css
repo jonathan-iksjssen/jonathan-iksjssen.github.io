@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: "Iosevka SS14", monospace !important;
+    font-family: "Iosevka SS14 Web", "Libertinus Sans", monospace !important;
 }
 
 a.navlink {

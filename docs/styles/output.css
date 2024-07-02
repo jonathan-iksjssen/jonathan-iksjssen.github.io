@@ -685,7 +685,7 @@ video {
 }
 
 * {
-  font-family: "Iosevka SS14", monospace !important;
+  font-family: "Iosevka SS14 Web", "Libertinus Sans", monospace !important;
 }
 
 a.navlink:hover {
@@ -696,16 +696,6 @@ a.navlink:hover {
 span.sep {
   --tw-text-opacity: 1;
   color: rgb(108 112 134 / var(--tw-text-opacity));
-}
-
-@media (min-width: 768px) {
-  .md\:pl-6 {
-    padding-left: 1.5rem;
-  }
-
-  .md\:text-left {
-    text-align: left;
-  }
 }
 
 @media (min-width: 1024px) {
