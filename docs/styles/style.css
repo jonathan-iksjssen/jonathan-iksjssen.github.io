@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
 * {
     font-family: "Iosevka SS14 Web", monospace !important;
 }
 
 html {
     background: url(../assets/bg/walltest-1.png), #11111b;
-    background-size: auto;
+    background-size: 75%;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 a.navlink {

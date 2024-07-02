@@ -4,10 +4,12 @@ module.exports = {
     "../*.{html,js}"
   ],
   theme: {
-    
+    fontFamily: {
+      'serif': ['Libertinus Serif', 'ui-serif', 'serif'],
+    },
     extend: {
       
-
+      
       colors: {
         'indigrey': {
           50: '#cdd6f4',
