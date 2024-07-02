@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: "Iosevka SS14 Web", "Libertinus Sans", monospace !important;
+    font-family: "Iosevka SS14 Web", monospace !important;
 }
 
 a.navlink {
@@ -12,4 +12,8 @@ a.navlink {
 
 span.sep {
     @apply text-indigrey-500;
+}
+
+#name:hover {
+    cursor: grabbing;
 }

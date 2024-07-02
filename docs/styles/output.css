@@ -641,6 +641,11 @@ video {
   border-color: rgb(108 112 134 / var(--tw-border-opacity));
 }
 
+.border-indigrey-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(69 71 90 / var(--tw-border-opacity));
+}
+
 .bg-indigrey-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 30 46 / var(--tw-bg-opacity));
@@ -685,7 +690,7 @@ video {
 }
 
 * {
-  font-family: "Iosevka SS14 Web", "Libertinus Sans", monospace !important;
+  font-family: "Iosevka SS14 Web", monospace !important;
 }
 
 a.navlink:hover {
@@ -696,6 +701,10 @@ a.navlink:hover {
 span.sep {
   --tw-text-opacity: 1;
   color: rgb(108 112 134 / var(--tw-text-opacity));
+}
+
+#name:hover {
+  cursor: grabbing;
 }
 
 @media (min-width: 1024px) {
