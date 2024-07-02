@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     
     extend: {
+
       colors: {
         'indigrey': {
           50: '#cdd6f4',

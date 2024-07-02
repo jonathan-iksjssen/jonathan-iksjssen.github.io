@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    font-family: "Iosevka SS14", monospace !important;
+}
+
 a.navlink {
     @apply hover:text-brand-300
 }

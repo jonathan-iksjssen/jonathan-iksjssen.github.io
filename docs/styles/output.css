@@ -684,6 +684,10 @@ video {
   color: rgb(205 214 244 / var(--tw-text-opacity));
 }
 
+* {
+  font-family: "Iosevka SS14", monospace !important;
+}
+
 a.navlink:hover {
   --tw-text-opacity: 1;
   color: rgb(151 179 249 / var(--tw-text-opacity));
