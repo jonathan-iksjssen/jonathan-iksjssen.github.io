@@ -37,14 +37,14 @@ module.exports = {
       },
 
       fontSize: {
-        sm: '0.8rem',
-        base: '1rem',
-        lg: '1.5rem',
-        xl: '2rem',
-        '2xl': '2.5rem',
-        '3xl': '3rem',
-        '4xl': '4rem',
-        '5xl': '5rem',
+        sm: '15px',
+        base: '18px',
+        lg: '27px',
+        xl: '36px',
+        '2xl': '45px',
+        '3xl': '54px',
+        '4xl': '72px',
+        '5xl': '90px',
       }
 
     },
