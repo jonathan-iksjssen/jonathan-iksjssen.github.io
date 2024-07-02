@@ -602,6 +602,10 @@ video {
   display: flex;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-11\/12 {
   width: 91.666667%;
 }
@@ -646,9 +650,18 @@ video {
   border-color: rgb(69 71 90 / var(--tw-border-opacity));
 }
 
-.bg-indigrey-900 {
+.bg-indigrey-1100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 30 46 / var(--tw-bg-opacity));
+  background-color: rgb(17 17 27 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pb-4 {
@@ -669,6 +682,10 @@ video {
 
 .text-lg {
   font-size: 27px;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .font-bold {
@@ -693,9 +710,36 @@ video {
   font-family: "Iosevka SS14 Web", monospace !important;
 }
 
+html {
+  background: url(../assets/bg/walltest-1.png), #11111b;
+  background-size: auto;
+}
+
+a.navlink {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 a.navlink:hover {
   --tw-text-opacity: 1;
   color: rgb(151 179 249 / var(--tw-text-opacity));
+}
+
+span.hli {
+  --tw-text-opacity: 1;
+  color: rgb(151 179 249 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+a.navlink:hover span.hli {
+  --tw-text-opacity: 1;
+  color: rgb(102 140 244 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 span.sep {
