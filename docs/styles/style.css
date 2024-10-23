@@ -51,5 +51,9 @@ body {
 }
 
 #bodycont {
-    @apply bg-indigrey-1100 bg-opacity-80 h-screen container w-11/12 md:w-3/4 lg:w-2/3 px-8
+    @apply bg-indigrey-1100 bg-opacity-80 h-screen container w-11/12 md:w-3/4 lg:w-2/3 px-8 space-y-8
+}
+
+p {
+    @apply text-justify
 }
